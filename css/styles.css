@@ -1,0 +1,62 @@
+.carousel-inner carousel-item active{
+  width: 90%;
+  height: 20%;
+}
+
+.about{
+  font-weight: bold;
+  font-style: italic;
+  font-family: cursive;
+  margin-left: 20px;
+  color: #66BFBF;
+  align-content: center;
+}
+
+#contact{
+    position: relative;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+#contact-box form{
+    width: 40%;
+
+}
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: 'Bree Serif';
+
+
+}
+.center{
+    text-align: center;
+}
+
+.mybt{
+    font-size: 2.8rem;
+    padding: 10px;
+    font-family: 'Bree Serif';
+    text-align: center;
+}
+
+.btn{
+    padding: 6px 20px;
+    border: 1px solid white;
+    background-color: green;
+    color: white;
+    margin: 25px;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
